@@ -1,0 +1,40 @@
+.delphi_swiper_box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: var(--contentWidth);
+    &>.delphi_swiper_box_inner {
+        margin-top: 26%;
+    }
+
+    &>.delphi_swiper {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        &>.swiper-container {
+            height: 100%;
+            & .swiper-slide {
+                & img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+/*swiper pagination rewrite*/
+.swiper-pagination-bullet{
+    width: 12px !important;
+    height: 12px !important;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    opacity: 1 !important;
+    background-color: transparent !important;
+    &.swiper-pagination-bullet-active{
+        background-color: var(--mainColor) !important;
+    }
+}
