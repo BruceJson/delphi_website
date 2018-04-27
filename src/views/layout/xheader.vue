@@ -6,19 +6,19 @@
             </div>
 
             <div class='layout_header_list'>
-                <div class='layout_header_item active'>
+                <div class='layout_header_item' :class='{"active": $route.name === "home"}' @click='jumpTo("/home")'>
                     <div class='inner_content'>
                         <p>首页</p>
                     </div>
                     <div class='bottom_line'></div>
                 </div>
-                <div class='layout_header_item'>
+                <div class='layout_header_item' :class='{"active": $route.name === "aboutus"}' @click='jumpTo("/aboutus")'>
                     <div class='inner_content'>
                         <p>关于我们</p>
                     </div>
                     <div class='bottom_line'></div>
                 </div>
-                <div class='layout_header_item'>
+                <div class='layout_header_item' :class='{"active": $route.name === "contactus"}' @click='jumpTo("/contactus")'>
                     <div class='inner_content'>
                         <p>联系我们</p>
                     </div>
@@ -36,7 +36,14 @@
 </template>
 <script>
 export default {
-    name: 'xheader'
+    name: 'xheader',
+    methods: {
+        jumpTo(path) {
+            this.$router.push({
+                path: path
+            });
+        }
+    }
 };
 
 </script>

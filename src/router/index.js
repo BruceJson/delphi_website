@@ -12,5 +12,15 @@ export default new Router({
         name: 'home',
         component: () =>
             import ('@/views/home/home')
+    }, {
+        path: '/aboutus',
+        name: 'aboutus',
+        component: () =>
+            import ('@/views/aboutus/about-us')
+    }, {
+        path: '/contactus',
+        name: 'contactus',
+        component: () =>
+            import ('@/views/contactus/contact-us')
     }]
 })

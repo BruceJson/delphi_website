@@ -1,9 +1,12 @@
 <template>
     <div class='page_body'>
-        <router-view></router-view>
+        <transition name='fade' mode="out-in">
+            <router-view></router-view>
+        </transition>
     </div>
 </template>
 <script></script>
 <style scoped>
+
 
 </style>

@@ -1,0 +1,85 @@
+.fly-right-left {
+    animation: fly-right-left ease-in 1s, fly-left-right ease-out 0.5s 1 1s;
+}
+
+.fly-left {
+    animation: fly-left ease-out 2s;
+}
+
+.fly-right {
+    animation: hide 1s, fly-right ease-out 2s 1s;
+}
+
+.fly-down {
+    animation: fly-down ease-out 1s 1s;
+}
+
+@keyframes fly-right-left {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-20px);
+    }
+}
+
+@keyframes fly-left-right {
+    0% {
+        opacity: 1;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fly-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fly-right {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fly-down {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

@@ -25,6 +25,7 @@ body {
 
 
 
+
 /*header*/
 
 .page_header {
@@ -117,6 +118,7 @@ body {
 
 
 
+
 /*page_body*/
 
 .page_body {
@@ -126,6 +128,7 @@ body {
         margin-top: 100px;
     }
 }
+
 
 
 
@@ -143,12 +146,12 @@ body {
     & .page_footer_inner {
         height: calc(100% - 50px);
         padding-top: 30px;
-        & > p{
+        &>p {
             display: flex;
             align-items: center;
             line-height: 1;
             margin-bottom: 10px;
-            & > span{
+            &>span {
                 color: #fff;
                 margin-left: 10px;
             }
@@ -162,4 +165,22 @@ body {
         text-align: center;
         border-top: 1px solid #A0A0A0;
     }
+}
+
+
+
+/*transform 过渡*/
+.fade-enter-active,
+.fade-leave-active {
+    /*transform-origin: 0% 0%;*/
+    transition: all ease-out 0.3s;
+}
+
+.fade-enter,
+.fade-leave-to
+/* .fade-leave-active below version 2.1.8 */
+
+{
+    transform: translateY(-20px) scale(0.98);
+    opacity: 0;
 }

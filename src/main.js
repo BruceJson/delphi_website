@@ -10,6 +10,8 @@ Vue.use(iview);
 import comps from '@/components';
 Vue.use(comps);
 
+import baiduMap from 'vue-baidu-map';
+Vue.use(baiduMap);
 
 // css
 import '@/assets/style/main.css';
