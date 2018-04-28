@@ -1,0 +1,123 @@
+.banner {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    line-height: 1;
+    min-width: var(--contentWidth);
+    &>.inner {
+        margin-top: 20.8%;
+    }
+    &>.banner_img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        &>.img1 {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        &>.p1 {
+            position: absolute;
+            font-size: 48px;
+            color: #fff;
+            text-align: center;
+            z-index: 1;
+            top: 29%;
+            left: 0;
+            width: 100%;
+        }
+        &>.p2 {
+            position: absolute;
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.5);
+            text-align: center;
+            z-index: 1;
+            top: 46%;
+            left: 0;
+            width: 100%;
+        }
+
+        &>.p3 {
+            position: absolute;
+            font-size: 24px;
+            color: #fff;
+            text-align: center;
+            z-index: 1;
+            top: 59%;
+            left: 0;
+            width: 100%;
+        }
+    }
+}
+
+.part_title {
+    font-size: 24px;
+    color: var(--commonFontColor1);
+    text-align: center;
+}
+
+.part1 {
+    font-size: 18px;
+    color: var(--commonFontColor1);
+    padding: 50px 0;
+    line-height: 1.5;
+}
+
+.part2 {
+    & .list {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        margin: 50px 0;
+        &>.item {
+            flex-flow: 1;
+            text-align: center;
+            &>.p1 {
+                font-size: 18px;
+                color: #000;
+                margin-top: 25px;
+                margin-bottom: 30px;
+            }
+            &>.p2 {
+                font-size: 14px;
+                color: var(--commonFontColor2);
+                width: 203px;
+                display: inline-block;
+                line-height: 1.5;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+.part3 {
+    padding-top: 34px;
+    padding-bottom: 46px;
+    background-color: #F0F0F0;
+    margin-bottom: 50px;
+    & .img_box {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    & .list {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin-top: 35px;
+        &>.item {
+            width: 130px;
+            font-size: 14px;
+            color: var(--commonFontColor2);
+            &>p {
+                text-align: justify;
+                line-height: 1.5;
+            }
+        }
+    }
+}

@@ -17,9 +17,9 @@
         <div class='part1'>
             <div class='inner content_inner_width'>
                 <div class='map' style='background-color: gray;'>
-                    <baidu-map class="map" style="display: flex; flex-direction: column" center="北京">
-                        <p style="padding: 0 10px;">以下是使用 `bm-view` 组件渲染的百度地图实例</p>
+                    <baidu-map class="map" style="display: flex; flex-direction: column;height:100%;" :center="{lng: 118.736948, lat: 32.017074}" :zoom="15" :scroll-wheel-zoom='true'>
                         <bm-view style="width: 100%; height:100px; flex: 1"></bm-view>
+                        <bm-marker :position="{lng: 118.7364234657, lat: 32.0174873171}"></bm-marker>
                     </baidu-map>
                 </div>
                 <div class='info_box'>

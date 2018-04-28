@@ -25,7 +25,7 @@
                         <p class='p1'>迅聘选材</p>
                         <p class='p2'>迅聘，帮您挑剔</p>
                         <p class='p3'>人才战略，快人一步</p>
-                        <router-link to='/home' class='btn_detail'>查看详情</router-link>
+                        <router-link to='/xunpin' class='btn_detail'>查看详情</router-link>
                     </div>
                 </div>
                 <div class='item'>
@@ -34,7 +34,7 @@
                         <p class='p1'>贤于测评</p>
                         <p class='p2'>用最科学的人才评估系统，</p>
                         <p class='p3'>让您的选材快人一步</p>
-                        <router-link to='/home' class='btn_detail'>查看详情</router-link>
+                        <router-link to='/xianyutest' class='btn_detail'>查看详情</router-link>
                     </div>
                 </div>
                 <div class='item'>
@@ -43,7 +43,7 @@
                         <p class='p1'>人才委培</p>
                         <p class='p2'>一款让您提前锁定高质量，</p>
                         <p class='p3'>有潜力人才的产品</p>
-                        <router-link to='/home' class='btn_detail'>查看详情</router-link>
+                        <router-link to='/talenttraining' class='btn_detail'>查看详情</router-link>
                     </div>
                 </div>
                 <div class='item'>
@@ -52,7 +52,7 @@
                         <p class='p1'>SAAS服务</p>
                         <p class='p2'>外部人才市场监控，</p>
                         <p class='p3'>内部人才管理标准流程化</p>
-                        <router-link to='/home' class='btn_detail'>查看详情</router-link>
+                        <router-link to='/saas' class='btn_detail'>查看详情</router-link>
                     </div>
                 </div>
             </div>

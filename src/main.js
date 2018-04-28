@@ -11,7 +11,9 @@ import comps from '@/components';
 Vue.use(comps);
 
 import baiduMap from 'vue-baidu-map';
-Vue.use(baiduMap);
+Vue.use(baiduMap, {
+    ak: 'ZUONbpqGBsYGXNIYHicvbAbM'
+});
 
 // css
 import '@/assets/style/main.css';
@@ -28,4 +30,4 @@ new Vue({
         App
     },
     template: '<App/>'
-})
+});

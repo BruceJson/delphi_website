@@ -11,7 +11,7 @@
 }
 
 .fly-down {
-    animation: fly-down ease-out 1s 1s;
+    animation: hide 1.5s, fly-down ease-out 1s 1.5s;
 }
 
 @keyframes fly-right-left {
@@ -65,7 +65,7 @@
 @keyframes fly-down {
     0% {
         opacity: 0;
-        transform: translateX(20px);
+        transform: translateY(20px);
     }
 
     100% {

@@ -22,5 +22,25 @@ export default new Router({
         name: 'contactus',
         component: () =>
             import ('@/views/contactus/contact-us')
+    }, {
+        path: '/saas',
+        name: 'saas',
+        component: () =>
+            import ('@/views/products/saas')
+    }, {
+        path: '/xunpin',
+        name: 'xunpin',
+        component: () =>
+            import ('@/views/products/xunpin')
+    }, {
+        path: '/talenttraining',
+        name: 'talenttraining',
+        component: () =>
+            import ('@/views/products/talent-training')
+    }, {
+        path: '/xianyutest',
+        name: 'xianyutest',
+        component: () =>
+            import ('@/views/products/xianyu-test')
     }]
 })
