@@ -1,5 +1,5 @@
 <template>
-    <div class='contactus_page'>
+    <div class='talent_page'>
         <div class='line_height_0'>
             <div class='banner'>
                 <div class='inner'></div>

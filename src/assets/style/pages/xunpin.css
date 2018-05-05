@@ -1,102 +1,104 @@
-.banner {
-    position: relative;
-    width: 100%;
-    display: inline-block;
-    line-height: 1;
-    min-width: var(--contentWidth);
-    &>.inner {
-        margin-top: 20.8%;
-    }
-    &>.banner_img {
-        position: absolute;
-        left: 0;
-        top: 0;
+.xunpin_page {
+    & .banner {
+        position: relative;
         width: 100%;
-        height: 100%;
-        &>.img1 {
+        display: inline-block;
+        line-height: 1;
+        min-width: var(--contentWidth);
+        &>.inner {
+            margin-top: 20.8%;
+        }
+        &>.banner_img {
             position: absolute;
             left: 0;
             top: 0;
             width: 100%;
             height: 100%;
-        }
-        &>.p1 {
-            position: absolute;
-            font-size: 36px;
-            color: #fff;
-            text-align: center;
-            z-index: 1;
-            top: 31%;
-            left: 0;
-            width: 100%;
-            &>.span1 {
-                display: inline-block;
-                color: #0074ff;
-                margin-right: 40px;
-            }
-        }
-        &>.p2 {
-            position: absolute;
-            font-size: 36px;
-            color: #fff;
-            text-align: right;
-            z-index: 1;
-            top: 55%;
-            left: 0;
-            width: 100%;
-            padding-right: 22.2%;
-        }
-    }
-}
-
-.part1 {
-    font-size: 18px;
-    color: var(--commonFontColor1);
-    padding-top: 70px;
-    line-height: 1.5;
-    height: 380px;
-    background-color: #F4F4F4;
-}
-
-.part2 {
-    &>.part2_inner {
-        margin: 0 auto;
-        margin-top: -157px;
-        width: 1400px;
-        padding: 40px 100px;
-        background-color: #fff;
-        & .item {
-            float: left;
-            width: 595px;
-            height: 380px;
-            margin-right: 10px;
-            margin-bottom: 10px;
-            position: relative;
-            &:nth-child(2n) {
-                margin-right: 0;
-            }
-
-            &>img {
+            &>.img1 {
                 position: absolute;
                 left: 0;
                 top: 0;
                 width: 100%;
                 height: 100%;
             }
+            &>.p1 {
+                position: absolute;
+                font-size: 36px;
+                color: #fff;
+                text-align: center;
+                z-index: 1;
+                top: 31%;
+                left: 0;
+                width: 100%;
+                &>.span1 {
+                    display: inline-block;
+                    color: #0074ff;
+                    margin-right: 40px;
+                }
+            }
+            &>.p2 {
+                position: absolute;
+                font-size: 36px;
+                color: #fff;
+                text-align: right;
+                z-index: 1;
+                top: 55%;
+                left: 0;
+                width: 100%;
+                padding-right: 22.2%;
+            }
+        }
+    }
 
-            &>.content {
+    & .part1 {
+        font-size: 18px;
+        color: var(--commonFontColor1);
+        padding-top: 70px;
+        line-height: 1.5;
+        height: 380px;
+        background-color: #F4F4F4;
+    }
+
+    & .part2 {
+        &>.part2_inner {
+            margin: 0 auto;
+            margin-top: -157px;
+            width: 1400px;
+            padding: 40px 100px;
+            background-color: #fff;
+            & .item {
+                float: left;
+                width: 595px;
+                height: 380px;
+                margin-right: 10px;
+                margin-bottom: 10px;
                 position: relative;
-                margin-top: 243px;
-                z-index: 2;
-                &>p {
-                    padding-left: 30px;
-                    color: #fff;
-                    &.p1 {
-                        font-size: 24px;
-                    }
-                    &.p2 {
-                        font-size: 16px;
-                        margin-top: 30px;
+                &:nth-child(2n) {
+                    margin-right: 0;
+                }
+
+                &>img {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                &>.content {
+                    position: relative;
+                    margin-top: 243px;
+                    z-index: 2;
+                    &>p {
+                        padding-left: 30px;
+                        color: #fff;
+                        &.p1 {
+                            font-size: 24px;
+                        }
+                        &.p2 {
+                            font-size: 16px;
+                            margin-top: 30px;
+                        }
                     }
                 }
             }

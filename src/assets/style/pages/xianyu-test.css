@@ -1,98 +1,100 @@
-.banner {
-    position: relative;
-    width: 100%;
-    display: inline-block;
-    line-height: 1;
-    min-width: var(--contentWidth);
-    &>.inner {
-        margin-top: 20.8%;
-    }
-    &>.banner_img {
-        position: absolute;
-        left: 0;
-        top: 0;
+.xianyu_page {
+    & .banner {
+        position: relative;
         width: 100%;
-        height: 100%;
-        &>.img1 {
+        display: inline-block;
+        line-height: 1;
+        min-width: var(--contentWidth);
+        &>.inner {
+            margin-top: 20.8%;
+        }
+        &>.banner_img {
             position: absolute;
             left: 0;
             top: 0;
             width: 100%;
             height: 100%;
-        }
-        &>.p1 {
-            position: absolute;
-            font-size: 48px;
-            color: #fff;
-            text-align: left;
-            z-index: 1;
-            top: 29%;
-            left: 0;
-            width: 100%;
-            padding-left: 18%;
-        }
-        &>.p2 {
-            position: absolute;
-            font-size: 24px;
-            color: rgba(255, 255, 255, .5);
-            text-align: left;
-            z-index: 1;
-            top: 55%;
-            left: 0;
-            width: 100%;
-            padding-left: 18%;
+            &>.img1 {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            &>.p1 {
+                position: absolute;
+                font-size: 48px;
+                color: #fff;
+                text-align: left;
+                z-index: 1;
+                top: 29%;
+                left: 0;
+                width: 100%;
+                padding-left: 18%;
+            }
+            &>.p2 {
+                position: absolute;
+                font-size: 24px;
+                color: rgba(255, 255, 255, .5);
+                text-align: left;
+                z-index: 1;
+                top: 55%;
+                left: 0;
+                width: 100%;
+                padding-left: 18%;
+            }
         }
     }
-}
 
-.part1 {
-    font-size: 18px;
-    color: var(--commonFontColor1);
-    padding: 80px 0;
-    line-height: 1.5;
-}
+    & .part1 {
+        font-size: 18px;
+        color: var(--commonFontColor1);
+        padding: 80px 0;
+        line-height: 1.5;
+    }
 
-.part2 {
-    & .list {
-        padding-bottom: 20px;
-        &>.item {
-            height: 300px;
-            display: flex;
-            width: 100%;
-            margin-bottom: 30px;
-            &>.item_title {
-                width: 40px;
-                line-height: 300px;
-                text-align: center;
-                font-size: 48px;
-                background-image: url('~@imgs/xianyu/2.png');
-                background-size: cover;
-                color: #fff;
-            }
-            &>img {
-                width: 410px;
-            }
-            &>.item_content {
+    & .part2 {
+        & .list {
+            padding-bottom: 20px;
+            &>.item {
+                height: 300px;
                 display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding-top: 40px;
-                background-color: #fff;
-                flex-grow: 1;
-                &>.p1 {
-                    font-size: 20px;
-                    color: #000;
+                width: 100%;
+                margin-bottom: 30px;
+                &>.item_title {
+                    width: 40px;
+                    line-height: 300px;
+                    text-align: center;
+                    font-size: 48px;
+                    background-image: url('~@imgs/xianyu/2.png');
+                    background-size: cover;
+                    color: #fff;
                 }
-                &>.p2 {
-                    font-size: 18px;
-                    color: var(--commonFontColor);
-                    margin: 10px 0;
+                &>img {
+                    width: 410px;
                 }
-                &>.p3 {
-                    font-size: 16px;
-                    color: var(--commonFontColor2);
-                    width: 460px;
-                    line-height: 1.6;
+                &>.item_content {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-top: 40px;
+                    background-color: #fff;
+                    flex-grow: 1;
+                    &>.p1 {
+                        font-size: 20px;
+                        color: #000;
+                    }
+                    &>.p2 {
+                        font-size: 18px;
+                        color: var(--commonFontColor);
+                        margin: 10px 0;
+                    }
+                    &>.p3 {
+                        font-size: 16px;
+                        color: var(--commonFontColor2);
+                        width: 460px;
+                        line-height: 1.6;
+                    }
                 }
             }
         }

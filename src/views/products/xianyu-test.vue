@@ -1,5 +1,5 @@
 <template>
-    <div class='contactus_page' style="background-color: #EAEAEA;">
+    <div class='xianyu_page' style="background-color: #EAEAEA;">
         <div class='line_height_0'>
             <div class='banner'>
                 <div class='inner'></div>
